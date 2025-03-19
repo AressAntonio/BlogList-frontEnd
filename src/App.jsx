@@ -7,6 +7,8 @@ import NoteForm from './components/NoteForm'
 import Notification from './components/Notification'
 
 const App = () => {
+
+  //controlador de publicaciones
   const [blogs, setBlogs] = useState([])
 
   //controlador newNote
