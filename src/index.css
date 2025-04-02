@@ -59,6 +59,12 @@ h1{
     z-index: 2;
 }
 
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 input{
     padding: 2px 2px;
     margin: 3px 5px;
@@ -118,4 +124,37 @@ input{
 .btn-save:hover{
     transform: scale(1.2);
     background-color: darkgreen;
+}
+
+.post{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    color: cornflowerblue;
+    font-size: 1.1rem;
+    border: 2px solid #ccf;
+    border-radius: 12px;
+    padding: 4px 3px;
+    margin-bottom: 5px;
+    font-family: serif;
+}
+.sub-post{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 3px 3px;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-family: ui-serif;
+    margin-top: 5px;
+    color: #fff;
+}
+.sub-post>span{
+    background-color: royalblue;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    padding: 3px 2px;
+    font-size: 1rem;
+    color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0.1);
 }
